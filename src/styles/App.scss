@@ -21,6 +21,31 @@ html, body {
   height: 100%;
   overflow: hidden;
   background-color: #ddd;
+
+  @at-root {
+    .img-figure{
+      position: absolute;
+      width: 320px;
+      margin: 0;
+      padding: 40px;
+
+      background-color: #fff;
+      box-sizing: border-box;
+
+      img {
+        width: 100%;
+      }
+    }
+    figcaption {
+      text-align: center;
+
+      .img-title {
+        margin-top: 20px;
+        color:#a7a0a2;
+        font-size: 16px;
+      }
+    }
+  }
 }
 .controller-nav {
   position: absolute;
